@@ -4,9 +4,7 @@ const pc = require('picocolors');
 const yargs = require('yargs');
 const axios = require('axios');
 
-console.log(
-    pc.green(`${pc.italic(`Welcome`)}`)
-  )
+console.log(pc.green(`${pc.italic(`Welcome`)}`));
 
 const options = yargs
   .usage('Usage: -n <name>')
