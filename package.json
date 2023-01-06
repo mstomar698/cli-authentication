@@ -1,0 +1,26 @@
+{
+  "name": "demo-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "hello": "./bin/index.js",
+    "pkce-login": "./bin/pkceLogin.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.1.0",
+    "axios": "^1.2.2",
+    "boxen": "^7.0.1",
+    "chalk": "^5.2.0",
+    "dotenv": "^16.0.3",
+    "open": "^8.4.0",
+    "picocolors": "^1.0.0",
+    "uuid": "^9.0.0",
+    "yargs": "^17.6.2"
+  }
+}
